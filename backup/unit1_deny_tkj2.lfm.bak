@@ -1,0 +1,22 @@
+object Tugas_3: TTugas_3
+  Left = 243
+  Height = 214
+  Top = 113
+  Width = 367
+  Caption = 'Tugas_3'
+  Color = 33023
+  LCLVersion = '1.0.14.0'
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    AutoEncodeStrings = False
+    Connected = True
+    HostName = 'localhost'
+    Port = 0
+    Database = 'tugaspd3'
+    User = 'root'
+    Protocol = 'mysql'
+    LibraryLocation = 'C:\wamp\bin\mysql\mysql5.1.36\bin\libmySQL.dll'
+    left = 37
+    top = 39
+  end
+end
